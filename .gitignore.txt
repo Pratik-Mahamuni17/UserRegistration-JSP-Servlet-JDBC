@@ -1,0 +1,37 @@
+# Ignore compiled class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore generated files and directories
+/build/
+/target/
+/out/
+
+# Ignore Tomcat work directory (if inside project)
+work/
+
+# Ignore Eclipse project files
+*.classpath
+*.project
+.settings/
+
+# Ignore IntelliJ project files
+*.iml
+.idea/
+*.iws
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore MySQL connector JAR (can be downloaded separately)
+mysql-connector-java*.jar
